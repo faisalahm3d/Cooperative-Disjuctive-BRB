@@ -1,0 +1,257 @@
+{"A": {
+    "antecedent_id": "A",
+    "antecedent_name": "Age",
+    "attribute_weight": 0.9,
+    "ref_val": [62,56,50, 44,38,32],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0.0,
+    "parent": "H",
+  "rulebase_filename": "",
+    "input_val": 5.0,
+    "is_input": true,
+  "is_root": false
+  },
+  "B": {
+    "antecedent_id": "B",
+    "antecedent_name": "BMI",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [36,33,20,27,24,21],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "Moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0.0,
+    "parent": "H",
+    "input_val": 21.0,
+    "is_input": true,
+    "is_root": false
+  }
+  ,
+  "C": {
+    "antecedent_id": "C",
+    "antecedent_name": "Sympthom Score",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [
+      6,5,4,3,2,0
+    ],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "Moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "H",
+    "input_val": 34,
+    "is_input": true,
+    "is_root": false
+  },
+  "D": {
+    "antecedent_id": "D",
+    "antecedent_name": "WBC",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [
+      12101, 10279,8457,6635,4813,2990
+    ],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "Moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "I",
+    "input_val": 1.3,
+    "is_input": true,
+    "is_root": false
+  },
+  "E": {
+    "antecedent_id": "E",
+    "antecedent_name": "RBC",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [5018451,4778045, 4837639, 4297233, 4056827, 3816421],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "Moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "I",
+    "input_val": 6,
+    "is_input": true,
+    "is_root": false
+  },
+
+  "F": {
+    "antecedent_id": "F",
+    "antecedent_name": "Platelate",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [
+      226464,
+      199773.8,
+      173083.6,
+      146393.4,
+      119703.2,
+      93013
+    ],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "Moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "J",
+    "input_val": 1.3,
+    "is_input": true,
+    "is_root": false
+  },
+
+  "G": {
+    "antecedent_id": "G",
+    "antecedent_name": "Himoglobin",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [
+      15.0,
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "ref_title": [
+      "Very High",
+      "High",
+      "Medium",
+      "Moderate",
+      "Low",
+      "Very Low"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "J",
+    "input_val": 1.3,
+    "is_input": true,
+    "is_root": false
+  },
+  "H": {
+    "antecedent_id": "H",
+    "antecedent_name": "Demographic",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+       "ref_val": [
+      1,2,3,4
+    ],
+    "ref_title": [
+      "Cirrhosis",
+      "Many Septa",
+      "Few Septa",
+      "Portal Fibrosis"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "K",
+    "input_val": 1.3,
+    "is_input": false,
+    "is_root": false
+  },
+
+  "I": {
+    "antecedent_id": "I",
+    "antecedent_name": "Hematological",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+      "ref_val": [
+      1,2,3,4
+    ],
+    "ref_title": [
+      "Cirrhosis",
+      "Many Septa",
+      "Few Septa",
+      "Portal Fibrosis"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "K",
+    "input_val": 6,
+    "is_input": false,
+    "is_root": false
+  },
+
+  "J": {
+    "antecedent_id": "J",
+    "antecedent_name": "Pathological",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [
+      1,2,3,4
+    ],
+    "ref_title": [
+      "Cirrhosis",
+      "Many Septa",
+      "Few Septa",
+      "Portal Fibrosis"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "K",
+    "input_val": 1.3,
+    "is_input": false,
+    "is_root": false
+  },
+
+  "K": {
+    "antecedent_id": "K",
+    "antecedent_name": "Cancer Stage",
+    "rulebase_filename": "",
+    "attribute_weight": 1.0,
+    "ref_val": [
+      1,2,3,4
+    ],
+    "ref_title": [
+      "Cirrhosis",
+      "Many Septa",
+      "Few Septa",
+      "Portal Fibrosis"
+    ],
+    "consequent_values": [],
+    "crisp_val": 0,
+    "parent": "K",
+    "input_val": 1.3,
+    "is_input": false,
+    "is_root": true
+  }
+
+}
